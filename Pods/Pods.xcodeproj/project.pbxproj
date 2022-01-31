@@ -1,0 +1,1040 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00B8F13D1A2E32615F9FCAD71CED20AA /* MMPlayerObservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29FDEBA71328769C98DBB617FD8A42CD /* MMPlayerObservation.swift */; };
+		044CD340531A3865179AE5430A2D5ED5 /* MMPlayer+UINavigationController+Proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90A43E7E8ACC3AD3F552907FA91EED9 /* MMPlayer+UINavigationController+Proxy.swift */; };
+		080A181138018D5270C2428F61FC7D1F /* TimeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B2787910906EC12CF20A0113365FD /* TimeInfo.swift */; };
+		0C6DCA7802808D99CF6BB1290D03265E /* MMPlayer+Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230FAB58562343909FCE42AFC198DD48 /* MMPlayer+Constraint.swift */; };
+		10944FDDE6E46490F21DA589BD38C047 /* MMPlayerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EA56521D6E62E8B20F34FFD8B99011 /* MMPlayerLayer.swift */; };
+		10E9F8C614691ECA60699F2C62F925D6 /* MMPlayerPassViewPresentConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE04637CE9AC6BDAFBBB58AD0AF47E /* MMPlayerPassViewPresentConfig.swift */; };
+		11BDF24F604EF9092F85A3FDA4EA77B4 /* MMLandscapeWindowUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E780D6C6699E9A0276397FD333DDF90 /* MMLandscapeWindowUI.swift */; };
+		19AF4D74F2B5CDFD572B3408CC9D5C6D /* SubtitleConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24C6FCC959A9BF16E981B335F2CE9F11 /* SubtitleConverter.swift */; };
+		1D823BD8562AC66174490FFC8449E038 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		252EB46563E701160D058FE119C4FEFB /* MMPlayerView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1545131545A50AA3CE6BBB48BE53B977 /* MMPlayerView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		252F6A08DA3B2087731A284584D9B75B /* MMPlayer+String+SRTTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6263F8618918EF496626408BCF5E908B /* MMPlayer+String+SRTTime.swift */; };
+		2ACE3941C201DDCAEB17C952379BC83B /* MMPlayer+UIView+Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B05DF51B1A851C6FF3509C7C8DD1B348 /* MMPlayer+UIView+Shadow.swift */; };
+		2F25D3710DD6069B08CD80A9F0C23A91 /* MMPlayer+UIViewController+CheckProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831D537C767FB9A89D704AD5ECC46997 /* MMPlayer+UIViewController+CheckProtocol.swift */; };
+		2FB7AAAF447BBAF33279419F8A2B8629 /* MMPlayerProgressUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A161D723DE4216DB89441377C91054 /* MMPlayerProgressUI.swift */; };
+		301F4CEB1F3C10205AF6CBBEC1FD5DA7 /* MMPlayerDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450E29A94D491E90F4673583409BE700 /* MMPlayerDownloadManager.swift */; };
+		312CB8AE6D6BD48F8B15B7A92F8C2BC4 /* GlobalFrameModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8852EDE387E9028B1D47944A8D84CC8 /* GlobalFrameModifier.swift */; };
+		324C35A6D26A1277BF92A8AF89679815 /* MMPlayerBaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E6ED923BCC56AE264DB4ADB3E0D5C38 /* MMPlayerBaseTransition.swift */; };
+		391D0FF221D9FB679B65A89FE33FD8C6 /* MMPlayerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1710A52AB48BEA44A2499EA0D5C0E5 /* MMPlayerProtocol.swift */; };
+		3C7488229DDDA7983C8CE9FE23CE35A8 /* MMPlayer+Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D20D88DF05770AD02F84A471E2E1118 /* MMPlayer+Codable.swift */; };
+		3F809D1B2CA312B229B668805189A265 /* FrameModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492CC4D66099EC6676686569F04D740F /* FrameModifier.swift */; };
+		422BBC6D2155C752FF86A0429ED3D645 /* MMPlayerPassViewPushTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF2DFF6581C8E3AD2519563BC4D7588 /* MMPlayerPassViewPushTransition.swift */; };
+		438C93E507F9AE5132339B0C8476AF23 /* MMPlayerPresentAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47AEB6C6CC77FFA33B9A04C4485B067 /* MMPlayerPresentAnimator.swift */; };
+		46E39B8DB21B9ACFCDBD218E5190F522 /* MMPlayer+NSObject+Replace.swift in Sources */ = {isa = PBXBuildFile; fileRef = C259ACFF1CC01BE67C574DA5443421DB /* MMPlayer+NSObject+Replace.swift */; };
+		513DCC854F68C462ACB6D2D84AA72731 /* MMPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CACD75C1096361C357DD86B15545A02D /* MMPlayerView.swift */; };
+		5208B2221FBAB07C31604F51E32361DA /* MMSubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7409E773FECC1D475508A11619ED1081 /* MMSubtitleView.swift */; };
+		573453CF8580EF0928E9FCF36B0C700D /* MMPlayerTransitionDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5697783968D99A202A653906B38434D1 /* MMPlayerTransitionDefine.swift */; };
+		5A9D873665BD5508DF6005FD2B3DC5A3 /* MMPlayerTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5FC6B2AFF446562FDD07D0896823A8 /* MMPlayerTransition.swift */; };
+		65883AD16CCC3C8D6838219A27189487 /* MMPlayerDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B06E61423F0160A780F52686F0E735D /* MMPlayerDefine.swift */; };
+		6603166F4C7E93FBE34B926CF7E5357F /* MMPlayerDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8FF37941A392E4E64CD203D88F6F52 /* MMPlayerDownloader.swift */; };
+		6794F5C035F309ACBA54087FD3BB2C1E /* MMPlayerContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C62E308E1857E75D4249C16062E89163 /* MMPlayerContainer.swift */; };
+		723F2F447B3DEE519FACFEBD582C24D1 /* MMLandscapeWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AED99355B3B65A21A8DA0E0848DD1A40 /* MMLandscapeWindow.swift */; };
+		775910F9B38D1C41461D41318AB62328 /* MMSubtitleSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5533415037F54679ED5BB61BAC0E74DD /* MMSubtitleSetting.swift */; };
+		807781A64E294862065E497C5B27B952 /* MMPlayerItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE5C8AC18D3BBB3B48B9505C3D2F62 /* MMPlayerItem.swift */; };
+		85EEC1626B4DB20184F18DC55BF2D3EE /* SRTInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF54988A07A8DE20893211F965D92DB /* SRTInfo.swift */; };
+		8D4BC60448DF3D379CEFC550C0F36244 /* MMPlayerBasePresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1387700EC163B985E921C6A6084B769 /* MMPlayerBasePresentationController.swift */; };
+		93F8DC30E87092387536A3E26DA20275 /* MMPlayerViewUIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85B2502221AEA08B27425EC4AC9206A /* MMPlayerViewUIError.swift */; };
+		A1CDE6B1B3C22EC9F64E4D9640222263 /* MMPlayer+String+Encode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC1600AF32247BABD23557259727F1B /* MMPlayer+String+Encode.swift */; };
+		A2BD25A4C8E2AF205A3664A8A6BCF08B /* MMPlayer+AVPlayerItem+ConvertStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2668F9353A5718D02B50E84AA76BCE4 /* MMPlayer+AVPlayerItem+ConvertStatus.swift */; };
+		A60F0D17FA4D9F8B89D21102C629568D /* MMPlayerDownLoadVideoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED189D8246A7984A5AAD88FCBA459599 /* MMPlayerDownLoadVideoInfo.swift */; };
+		AAD26CA83AEB4FEBE8D3DF51177F10F3 /* MMPlayerDownloadRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15389A6E5672D7C42D77C8AA3F682218 /* MMPlayerDownloadRequest.swift */; };
+		ABDA0BD0244BABD2B7A43849F5156908 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		ADA3328A955AEE5B9F5911FDC79F7CD4 /* SRT.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05A37D91006483F70A0CA2DB26D9FBB /* SRT.swift */; };
+		AF25EB733427C45938277688D1AC326A /* MMplayer+StackView+RemoveAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562991E1E12368981C76EF9D8732DF35 /* MMplayer+StackView+RemoveAll.swift */; };
+		B2972A123CF871F6DA3D29746E9C833D /* WeakBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42EDA17D519DCE97A4F7CC5B8C98931F /* WeakBox.swift */; };
+		B8ED14AA25C61A8AE3ADFCFF298FD7C2 /* MMPlayerView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EA82D86A499302E20D0B4A579C12B1 /* MMPlayerView-dummy.m */; };
+		C203B0A5E817036B6351A5BC00D4E557 /* MMPlayerDownloaderModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE79F2FEAAF5CA6E3105C219CC73C23 /* MMPlayerDownloaderModifier.swift */; };
+		C36A636C7A9591E552DC503612212391 /* MMPlayer+UIView+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F57A8F53671FC6C110C539D7FADAE /* MMPlayer+UIView+Load.swift */; };
+		C696A981199E281594E9EC410AF6F460 /* MMPlayerViewBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B342BF63AEBA2B0A2D4DF463CA8E6D /* MMPlayerViewBridge.swift */; };
+		C849FB2BA2CB2E020EA6C7F615EC267D /* MMPlayerControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36351B15675FC7E37D6261BDE0DC4558 /* MMPlayerControl.swift */; };
+		C8D8BCE6799FCD1A254E068202B37DE2 /* TransitionFrameModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DB98CD0489FCE8E6FF64964FE851C5E /* TransitionFrameModifier.swift */; };
+		D1B6332C6C57D5C875BEB78CB2D3D802 /* Pods-MMPlayerView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A9A3C0FE3069073AE307D32350528EE /* Pods-MMPlayerView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1F6808090ADAE841CE6B7AD5D5AD4F7 /* MMPlayerCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5898AF0D2432DED65FEF94E27FD3450 /* MMPlayerCache.swift */; };
+		D3E51F7ED9754C57E3CA7044B9E4877C /* MMPLayerViewUITransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC9035EF44B54CD5CC042F23AEF7947A /* MMPLayerViewUITransition.swift */; };
+		D5143B414D8186ECADD2D0E8C6D6322E /* MMPlayerPushAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 820470A3BEF37FAC69FEE4912119B05D /* MMPlayerPushAnimator.swift */; };
+		D9B54DD6D1F82164E20C0CEFA3EB5D8E /* MMProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D0D10170288C4BE60A61413E0CF34A /* MMProgress.swift */; };
+		DB0758457CA59208349689C69C5900FD /* MMPlayerPassViewPushConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2529F879AB4D5D623264FEB48FCAC1 /* MMPlayerPassViewPushConfig.swift */; };
+		DF71A2093CDE8C2C0D1582C2284B09A5 /* MMPlayerPassViewPresentatinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC088E12CD3E16F40FA11323783B7CA /* MMPlayerPassViewPresentatinController.swift */; };
+		DFABC769AC39A031DEF4C81F27829BB0 /* MMPlayerPassViewPresentTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 830F58C6D84A318829C82D6F0F249E60 /* MMPlayerPassViewPresentTransition.swift */; };
+		E32689284669B0C2E7CA2509CB30AEFF /* MMPlayer+Array+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B634195AE2AD7E2EB3FB0D43ED1DA /* MMPlayer+Array+Safe.swift */; };
+		E4685E03A9220BFA4A3D5AC9B2E868AC /* Pods-MMPlayerView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5422CA20FADF9590410368931F8EE8 /* Pods-MMPlayerView_Example-dummy.m */; };
+		E5AF803ECA64B45479AA22F5F8933AD5 /* MMPlayerShrinkControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 387B581BFDB3D78AE8C586D7813D4025 /* MMPlayerShrinkControl.swift */; };
+		EF5BEBE22282650BEAC226D8880B62BD /* MMPlayer+String+Bounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B044F555C0E80C1C625C710159AEDC /* MMPlayer+String+Bounds.swift */; };
+		FA0EC65B428184B318540E42FAF83876 /* MMPlayer+DispatchQueue+Once.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1726A44A4249DD1E149DA7FBC888BC8C /* MMPlayer+DispatchQueue+Once.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30854D2E77CA29360A77CB31479D10E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C033E08D00E323FB22F01920A912DB38;
+			remoteInfo = MMPlayerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0910F7EC099062F19C531E1650728924 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0DB98CD0489FCE8E6FF64964FE851C5E /* TransitionFrameModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TransitionFrameModifier.swift; sourceTree = "<group>"; };
+		14B342BF63AEBA2B0A2D4DF463CA8E6D /* MMPlayerViewBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerViewBridge.swift; sourceTree = "<group>"; };
+		15389A6E5672D7C42D77C8AA3F682218 /* MMPlayerDownloadRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerDownloadRequest.swift; sourceTree = "<group>"; };
+		1545131545A50AA3CE6BBB48BE53B977 /* MMPlayerView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMPlayerView-umbrella.h"; sourceTree = "<group>"; };
+		1726A44A4249DD1E149DA7FBC888BC8C /* MMPlayer+DispatchQueue+Once.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MMPlayer+DispatchQueue+Once.swift"; sourceTree = "<group>"; };
+		17B044F555C0E80C1C625C710159AEDC /* MMPlayer+String+Bounds.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MMPlayer+String+Bounds.swift"; sourceTree = "<group>"; };
+		230FAB58562343909FCE42AFC198DD48 /* MMPlayer+Constraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MMPlayer+Constraint.swift"; sourceTree = "<group>"; };
+		24C6FCC959A9BF16E981B335F2CE9F11 /* SubtitleConverter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SubtitleConverter.swift; sourceTree = "<group>"; };
+		29FDEBA71328769C98DBB617FD8A42CD /* MMPlayerObservation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerObservation.swift; sourceTree = "<group>"; };
+		2F8FF37941A392E4E64CD203D88F6F52 /* MMPlayerDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerDownloader.swift; sourceTree = "<group>"; };
+		36351B15675FC7E37D6261BDE0DC4558 /* MMPlayerControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerControl.swift; sourceTree = "<group>"; };
+		387B581BFDB3D78AE8C586D7813D4025 /* MMPlayerShrinkControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerShrinkControl.swift; sourceTree = "<group>"; };
+		3A9A3C0FE3069073AE307D32350528EE /* Pods-MMPlayerView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MMPlayerView_Example-umbrella.h"; sourceTree = "<group>"; };
+		3FC1600AF32247BABD23557259727F1B /* MMPlayer+String+Encode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MMPlayer+String+Encode.swift"; sourceTree = "<group>"; };
+		42EDA17D519DCE97A4F7CC5B8C98931F /* WeakBox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WeakBox.swift; sourceTree = "<group>"; };
+		43AA8EC7A8A5D6F926B7EFBEB2CEC62C /* Pods-MMPlayerView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMPlayerView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		450E29A94D491E90F4673583409BE700 /* MMPlayerDownloadManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerDownloadManager.swift; sourceTree = "<group>"; };
+		45EA56521D6E62E8B20F34FFD8B99011 /* MMPlayerLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerLayer.swift; sourceTree = "<group>"; };
+		492CC4D66099EC6676686569F04D740F /* FrameModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FrameModifier.swift; sourceTree = "<group>"; };
+		4B5422CA20FADF9590410368931F8EE8 /* Pods-MMPlayerView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMPlayerView_Example-dummy.m"; sourceTree = "<group>"; };
+		53135A42C0FFD77630DC5E64F4927C36 /* MMPlayerView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MMPlayerView-Info.plist"; sourceTree = "<group>"; };
+		5533415037F54679ED5BB61BAC0E74DD /* MMSubtitleSetting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMSubtitleSetting.swift; sourceTree = "<group>"; };
+		562991E1E12368981C76EF9D8732DF35 /* MMplayer+StackView+RemoveAll.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MMplayer+StackView+RemoveAll.swift"; sourceTree = "<group>"; };
+		5697783968D99A202A653906B38434D1 /* MMPlayerTransitionDefine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerTransitionDefine.swift; sourceTree = "<group>"; };
+		57D0D10170288C4BE60A61413E0CF34A /* MMProgress.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMProgress.swift; sourceTree = "<group>"; };
+		5E51600AD65B6E6227AC5F696DDAE6BF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6263F8618918EF496626408BCF5E908B /* MMPlayer+String+SRTTime.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MMPlayer+String+SRTTime.swift"; sourceTree = "<group>"; };
+		6470BA69A05052373BBC6DDD60C108A4 /* Pods-MMPlayerView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MMPlayerView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		660B4901DCCD5C9EAD6D3856ABC7E10C /* Pods-MMPlayerView_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MMPlayerView_Example"; path = Pods_MMPlayerView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B06E61423F0160A780F52686F0E735D /* MMPlayerDefine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerDefine.swift; path = MMPlayerView/Classes/MMPlayerDefine.swift; sourceTree = "<group>"; };
+		6E6ED923BCC56AE264DB4ADB3E0D5C38 /* MMPlayerBaseTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerBaseTransition.swift; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7409E773FECC1D475508A11619ED1081 /* MMSubtitleView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMSubtitleView.swift; sourceTree = "<group>"; };
+		7C34D5B9225B954CABE0E7817B102F5F /* Pods-MMPlayerView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMPlayerView_Example-Info.plist"; sourceTree = "<group>"; };
+		7E5B2787910906EC12CF20A0113365FD /* TimeInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TimeInfo.swift; sourceTree = "<group>"; };
+		7E780D6C6699E9A0276397FD333DDF90 /* MMLandscapeWindowUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMLandscapeWindowUI.swift; sourceTree = "<group>"; };
+		820470A3BEF37FAC69FEE4912119B05D /* MMPlayerPushAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerPushAnimator.swift; sourceTree = "<group>"; };
+		830F58C6D84A318829C82D6F0F249E60 /* MMPlayerPassViewPresentTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerPassViewPresentTransition.swift; sourceTree = "<group>"; };
+		831D537C767FB9A89D704AD5ECC46997 /* MMPlayer+UIViewController+CheckProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MMPlayer+UIViewController+CheckProtocol.swift"; sourceTree = "<group>"; };
+		85CE2E112BCDDCD164690576BBDE825A /* MMPlayerView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMPlayerView.release.xcconfig; sourceTree = "<group>"; };
+		8BF54988A07A8DE20893211F965D92DB /* SRTInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SRTInfo.swift; sourceTree = "<group>"; };
+		8D20D88DF05770AD02F84A471E2E1118 /* MMPlayer+Codable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MMPlayer+Codable.swift"; sourceTree = "<group>"; };
+		8F1F57A8F53671FC6C110C539D7FADAE /* MMPlayer+UIView+Load.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MMPlayer+UIView+Load.swift"; sourceTree = "<group>"; };
+		999BCA85679A2787849BDAF407F97367 /* MMPlayerView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMPlayerView.debug.xcconfig; sourceTree = "<group>"; };
+		9A1710A52AB48BEA44A2499EA0D5C0E5 /* MMPlayerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMPlayerProtocol.swift; path = MMPlayerView/Classes/MMPlayerProtocol.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DEE5C8AC18D3BBB3B48B9505C3D2F62 /* MMPlayerItem.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerItem.swift; sourceTree = "<group>"; };
+		A23922FA4E96DB9AF2B4A42FD65510F7 /* Pods-MMPlayerView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MMPlayerView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A47AEB6C6CC77FFA33B9A04C4485B067 /* MMPlayerPresentAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerPresentAnimator.swift; sourceTree = "<group>"; };
+		A5898AF0D2432DED65FEF94E27FD3450 /* MMPlayerCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerCache.swift; sourceTree = "<group>"; };
+		AED99355B3B65A21A8DA0E0848DD1A40 /* MMLandscapeWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMLandscapeWindow.swift; sourceTree = "<group>"; };
+		B05DF51B1A851C6FF3509C7C8DD1B348 /* MMPlayer+UIView+Shadow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MMPlayer+UIView+Shadow.swift"; sourceTree = "<group>"; };
+		B59B634195AE2AD7E2EB3FB0D43ED1DA /* MMPlayer+Array+Safe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MMPlayer+Array+Safe.swift"; sourceTree = "<group>"; };
+		B8852EDE387E9028B1D47944A8D84CC8 /* GlobalFrameModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GlobalFrameModifier.swift; sourceTree = "<group>"; };
+		B9A161D723DE4216DB89441377C91054 /* MMPlayerProgressUI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerProgressUI.swift; sourceTree = "<group>"; };
+		BCE79F2FEAAF5CA6E3105C219CC73C23 /* MMPlayerDownloaderModifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerDownloaderModifier.swift; sourceTree = "<group>"; };
+		BEC088E12CD3E16F40FA11323783B7CA /* MMPlayerPassViewPresentatinController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerPassViewPresentatinController.swift; sourceTree = "<group>"; };
+		C1387700EC163B985E921C6A6084B769 /* MMPlayerBasePresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerBasePresentationController.swift; sourceTree = "<group>"; };
+		C259ACFF1CC01BE67C574DA5443421DB /* MMPlayer+NSObject+Replace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MMPlayer+NSObject+Replace.swift"; sourceTree = "<group>"; };
+		C2668F9353A5718D02B50E84AA76BCE4 /* MMPlayer+AVPlayerItem+ConvertStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MMPlayer+AVPlayerItem+ConvertStatus.swift"; sourceTree = "<group>"; };
+		C4DC8CA78497C2F15B6745500090B92E /* Pods-MMPlayerView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MMPlayerView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C62E308E1857E75D4249C16062E89163 /* MMPlayerContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerContainer.swift; sourceTree = "<group>"; };
+		C90A43E7E8ACC3AD3F552907FA91EED9 /* MMPlayer+UINavigationController+Proxy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "MMPlayer+UINavigationController+Proxy.swift"; sourceTree = "<group>"; };
+		CACD75C1096361C357DD86B15545A02D /* MMPlayerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerView.swift; sourceTree = "<group>"; };
+		CF5FC6B2AFF446562FDD07D0896823A8 /* MMPlayerTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerTransition.swift; sourceTree = "<group>"; };
+		DC09E4BF1DFEF02135AF7E2F09A2638E /* MMPlayerView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MMPlayerView.modulemap; sourceTree = "<group>"; };
+		DD13E2FC52325F32876B195FB266A7C9 /* MMPlayerView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MMPlayerView-prefix.pch"; sourceTree = "<group>"; };
+		E05A37D91006483F70A0CA2DB26D9FBB /* SRT.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SRT.swift; sourceTree = "<group>"; };
+		E3287AFCC8E86495EDC7B106C795D732 /* Pods-MMPlayerView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MMPlayerView_Example.modulemap"; sourceTree = "<group>"; };
+		E5EA82D86A499302E20D0B4A579C12B1 /* MMPlayerView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMPlayerView-dummy.m"; sourceTree = "<group>"; };
+		EA9374AE38550CD162770E94FCDC9303 /* MMPlayerView */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMPlayerView; path = MMPlayerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF2DFF6581C8E3AD2519563BC4D7588 /* MMPlayerPassViewPushTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerPassViewPushTransition.swift; sourceTree = "<group>"; };
+		ED189D8246A7984A5AAD88FCBA459599 /* MMPlayerDownLoadVideoInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerDownLoadVideoInfo.swift; sourceTree = "<group>"; };
+		EF2529F879AB4D5D623264FEB48FCAC1 /* MMPlayerPassViewPushConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerPassViewPushConfig.swift; sourceTree = "<group>"; };
+		F08993688A31F004BA8966BCCFDC372C /* MMPlayerView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MMPlayerView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F2FDC68B7F07A0D6AFA55E3F0C75E7BB /* Pods-MMPlayerView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMPlayerView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F6EE04637CE9AC6BDAFBBB58AD0AF47E /* MMPlayerPassViewPresentConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerPassViewPresentConfig.swift; sourceTree = "<group>"; };
+		F85B2502221AEA08B27425EC4AC9206A /* MMPlayerViewUIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPlayerViewUIError.swift; sourceTree = "<group>"; };
+		FC9035EF44B54CD5CC042F23AEF7947A /* MMPLayerViewUITransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MMPLayerViewUITransition.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F85E55D8E6A4DA3B72BAFCADC1D8C45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDA0BD0244BABD2B7A43849F5156908 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B2C7D4A5C2FCA51A8E48909B8FF50D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D823BD8562AC66174490FFC8449E038 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0733F7CB2A6C00FC5C62C33B4D27BB94 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				FC9035EF44B54CD5CC042F23AEF7947A /* MMPLayerViewUITransition.swift */,
+			);
+			name = Transition;
+			path = Transition;
+			sourceTree = "<group>";
+		};
+		0A4D8E2B72928357BBE87835992955FF /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				36351B15675FC7E37D6261BDE0DC4558 /* MMPlayerControl.swift */,
+			);
+			name = Control;
+			path = Control;
+			sourceTree = "<group>";
+		};
+		1C88DEB714FD521F5C53DA5E52754393 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				F85B2502221AEA08B27425EC4AC9206A /* MMPlayerViewUIError.swift */,
+			);
+			name = Error;
+			path = Error;
+			sourceTree = "<group>";
+		};
+		2FE7422A19C2720D52855CE424E515AA /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				492CC4D66099EC6676686569F04D740F /* FrameModifier.swift */,
+				B8852EDE387E9028B1D47944A8D84CC8 /* GlobalFrameModifier.swift */,
+				0DB98CD0489FCE8E6FF64964FE851C5E /* TransitionFrameModifier.swift */,
+			);
+			name = Modifier;
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		35B98BC9459FDE6E9BDDEE7CD51AF269 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				29FDEBA71328769C98DBB617FD8A42CD /* MMPlayerObservation.swift */,
+				42EDA17D519DCE97A4F7CC5B8C98931F /* WeakBox.swift */,
+			);
+			name = Observer;
+			path = MMPlayerView/Classes/Observer;
+			sourceTree = "<group>";
+		};
+		43064A76DAC47B51ADAC854EB0184CB9 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				820470A3BEF37FAC69FEE4912119B05D /* MMPlayerPushAnimator.swift */,
+				58FB54FDE0832B5DE2DC5EACD9321255 /* ShowPassView */,
+			);
+			name = Navigation;
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		5350E8EDD4116F6558D5907543ED2939 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C8395C3FD51FC9B62910289E296FF748 /* Pods-MMPlayerView_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5858866467187A186368296E9F804F70 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5E51600AD65B6E6227AC5F696DDAE6BF /* LICENSE */,
+				F08993688A31F004BA8966BCCFDC372C /* MMPlayerView.podspec */,
+				0910F7EC099062F19C531E1650728924 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		58FB54FDE0832B5DE2DC5EACD9321255 /* ShowPassView */ = {
+			isa = PBXGroup;
+			children = (
+				EF2529F879AB4D5D623264FEB48FCAC1 /* MMPlayerPassViewPushConfig.swift */,
+				EBF2DFF6581C8E3AD2519563BC4D7588 /* MMPlayerPassViewPushTransition.swift */,
+			);
+			name = ShowPassView;
+			path = ShowPassView;
+			sourceTree = "<group>";
+		};
+		5CFF31773F0C323C6BA46B56F572DEE6 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				6E6ED923BCC56AE264DB4ADB3E0D5C38 /* MMPlayerBaseTransition.swift */,
+				CF5FC6B2AFF446562FDD07D0896823A8 /* MMPlayerTransition.swift */,
+				5697783968D99A202A653906B38434D1 /* MMPlayerTransitionDefine.swift */,
+				43064A76DAC47B51ADAC854EB0184CB9 /* Navigation */,
+				BE2FBEA28D198F399D25438BA18C5582 /* PresentModal */,
+			);
+			name = Transition;
+			path = MMPlayerView/Classes/Transition;
+			sourceTree = "<group>";
+		};
+		6CDCCC732FD35F6300EE2C1481A6075B /* Landscape */ = {
+			isa = PBXGroup;
+			children = (
+				AED99355B3B65A21A8DA0E0848DD1A40 /* MMLandscapeWindow.swift */,
+				7E780D6C6699E9A0276397FD333DDF90 /* MMLandscapeWindowUI.swift */,
+			);
+			name = Landscape;
+			path = MMPlayerView/Classes/Landscape;
+			sourceTree = "<group>";
+		};
+		6FE09D48BE4D5E13A5239302EA5B2AB8 /* MMPlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				6B06E61423F0160A780F52686F0E735D /* MMPlayerDefine.swift */,
+				9A1710A52AB48BEA44A2499EA0D5C0E5 /* MMPlayerProtocol.swift */,
+				FEDB82C4591511A05F3BDBBA65D18F66 /* Cache */,
+				B2EA22F69801494C77AC8B4A98CF7E14 /* Downloader */,
+				B73B11383CF358A28955F87CCF01677B /* Extension */,
+				AD0553996BDDF1E0560FB4BE65DEB20F /* Item */,
+				6CDCCC732FD35F6300EE2C1481A6075B /* Landscape */,
+				35B98BC9459FDE6E9BDDEE7CD51AF269 /* Observer */,
+				5858866467187A186368296E9F804F70 /* Pod */,
+				86F71917539ED5B27923CA83B174EC47 /* Subtitles */,
+				D6A8EA30D322DAE6A15A1A747A54A7A5 /* Support Files */,
+				92A0EEE7797C92820188DCD382B4F0DD /* Swift */,
+				BE3030AFB88AA12E2EA34E7CA4D4956F /* SwiftUI */,
+				5CFF31773F0C323C6BA46B56F572DEE6 /* Transition */,
+			);
+			name = MMPlayerView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		777EB185143DD589374C6ACD991AEC98 /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				57D0D10170288C4BE60A61413E0CF34A /* MMProgress.swift */,
+			);
+			name = Progress;
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		86F71917539ED5B27923CA83B174EC47 /* Subtitles */ = {
+			isa = PBXGroup;
+			children = (
+				5533415037F54679ED5BB61BAC0E74DD /* MMSubtitleSetting.swift */,
+				7409E773FECC1D475508A11619ED1081 /* MMSubtitleView.swift */,
+				E05A37D91006483F70A0CA2DB26D9FBB /* SRT.swift */,
+				24C6FCC959A9BF16E981B335F2CE9F11 /* SubtitleConverter.swift */,
+			);
+			name = Subtitles;
+			path = MMPlayerView/Classes/Subtitles;
+			sourceTree = "<group>";
+		};
+		92A0EEE7797C92820188DCD382B4F0DD /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				45EA56521D6E62E8B20F34FFD8B99011 /* MMPlayerLayer.swift */,
+				777EB185143DD589374C6ACD991AEC98 /* Progress */,
+				BADAA5DD474B8EEEF752776D0BEE8935 /* Shrink */,
+			);
+			name = Swift;
+			path = MMPlayerView/Classes/Swift;
+			sourceTree = "<group>";
+		};
+		A56FB1C67BF01C2F931F9D331D46C9B8 /* PlayerView */ = {
+			isa = PBXGroup;
+			children = (
+				C62E308E1857E75D4249C16062E89163 /* MMPlayerContainer.swift */,
+				CACD75C1096361C357DD86B15545A02D /* MMPlayerView.swift */,
+				14B342BF63AEBA2B0A2D4DF463CA8E6D /* MMPlayerViewBridge.swift */,
+			);
+			name = PlayerView;
+			path = PlayerView;
+			sourceTree = "<group>";
+		};
+		AD0553996BDDF1E0560FB4BE65DEB20F /* Item */ = {
+			isa = PBXGroup;
+			children = (
+				9DEE5C8AC18D3BBB3B48B9505C3D2F62 /* MMPlayerItem.swift */,
+				8BF54988A07A8DE20893211F965D92DB /* SRTInfo.swift */,
+				7E5B2787910906EC12CF20A0113365FD /* TimeInfo.swift */,
+			);
+			name = Item;
+			path = MMPlayerView/Classes/Item;
+			sourceTree = "<group>";
+		};
+		B2EA22F69801494C77AC8B4A98CF7E14 /* Downloader */ = {
+			isa = PBXGroup;
+			children = (
+				2F8FF37941A392E4E64CD203D88F6F52 /* MMPlayerDownloader.swift */,
+				BCE79F2FEAAF5CA6E3105C219CC73C23 /* MMPlayerDownloaderModifier.swift */,
+				450E29A94D491E90F4673583409BE700 /* MMPlayerDownloadManager.swift */,
+				15389A6E5672D7C42D77C8AA3F682218 /* MMPlayerDownloadRequest.swift */,
+				ED189D8246A7984A5AAD88FCBA459599 /* MMPlayerDownLoadVideoInfo.swift */,
+			);
+			name = Downloader;
+			path = MMPlayerView/Classes/Downloader;
+			sourceTree = "<group>";
+		};
+		B3B2292D046601E4776D0B07FA0EB4DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA9374AE38550CD162770E94FCDC9303 /* MMPlayerView */,
+				660B4901DCCD5C9EAD6D3856ABC7E10C /* Pods-MMPlayerView_Example */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B73B11383CF358A28955F87CCF01677B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B59B634195AE2AD7E2EB3FB0D43ED1DA /* MMPlayer+Array+Safe.swift */,
+				C2668F9353A5718D02B50E84AA76BCE4 /* MMPlayer+AVPlayerItem+ConvertStatus.swift */,
+				8D20D88DF05770AD02F84A471E2E1118 /* MMPlayer+Codable.swift */,
+				230FAB58562343909FCE42AFC198DD48 /* MMPlayer+Constraint.swift */,
+				1726A44A4249DD1E149DA7FBC888BC8C /* MMPlayer+DispatchQueue+Once.swift */,
+				C259ACFF1CC01BE67C574DA5443421DB /* MMPlayer+NSObject+Replace.swift */,
+				562991E1E12368981C76EF9D8732DF35 /* MMplayer+StackView+RemoveAll.swift */,
+				17B044F555C0E80C1C625C710159AEDC /* MMPlayer+String+Bounds.swift */,
+				3FC1600AF32247BABD23557259727F1B /* MMPlayer+String+Encode.swift */,
+				6263F8618918EF496626408BCF5E908B /* MMPlayer+String+SRTTime.swift */,
+				C90A43E7E8ACC3AD3F552907FA91EED9 /* MMPlayer+UINavigationController+Proxy.swift */,
+				8F1F57A8F53671FC6C110C539D7FADAE /* MMPlayer+UIView+Load.swift */,
+				B05DF51B1A851C6FF3509C7C8DD1B348 /* MMPlayer+UIView+Shadow.swift */,
+				831D537C767FB9A89D704AD5ECC46997 /* MMPlayer+UIViewController+CheckProtocol.swift */,
+			);
+			name = Extension;
+			path = MMPlayerView/Classes/Extension;
+			sourceTree = "<group>";
+		};
+		BADAA5DD474B8EEEF752776D0BEE8935 /* Shrink */ = {
+			isa = PBXGroup;
+			children = (
+				387B581BFDB3D78AE8C586D7813D4025 /* MMPlayerShrinkControl.swift */,
+			);
+			name = Shrink;
+			path = Shrink;
+			sourceTree = "<group>";
+		};
+		BE2FBEA28D198F399D25438BA18C5582 /* PresentModal */ = {
+			isa = PBXGroup;
+			children = (
+				C1387700EC163B985E921C6A6084B769 /* MMPlayerBasePresentationController.swift */,
+				A47AEB6C6CC77FFA33B9A04C4485B067 /* MMPlayerPresentAnimator.swift */,
+				BFF3B924BC014ADAA367A9AFC887C467 /* ShowPassView */,
+			);
+			name = PresentModal;
+			path = PresentModal;
+			sourceTree = "<group>";
+		};
+		BE3030AFB88AA12E2EA34E7CA4D4956F /* SwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				0A4D8E2B72928357BBE87835992955FF /* Control */,
+				1C88DEB714FD521F5C53DA5E52754393 /* Error */,
+				2FE7422A19C2720D52855CE424E515AA /* Modifier */,
+				A56FB1C67BF01C2F931F9D331D46C9B8 /* PlayerView */,
+				CA4AFBE2D0BF7463F0A8E31F5BE1469D /* Progress */,
+				0733F7CB2A6C00FC5C62C33B4D27BB94 /* Transition */,
+			);
+			name = SwiftUI;
+			path = MMPlayerView/Classes/SwiftUI;
+			sourceTree = "<group>";
+		};
+		BFF3B924BC014ADAA367A9AFC887C467 /* ShowPassView */ = {
+			isa = PBXGroup;
+			children = (
+				BEC088E12CD3E16F40FA11323783B7CA /* MMPlayerPassViewPresentatinController.swift */,
+				F6EE04637CE9AC6BDAFBBB58AD0AF47E /* MMPlayerPassViewPresentConfig.swift */,
+				830F58C6D84A318829C82D6F0F249E60 /* MMPlayerPassViewPresentTransition.swift */,
+			);
+			name = ShowPassView;
+			path = ShowPassView;
+			sourceTree = "<group>";
+		};
+		C119D56F4C3A16AA6C6BC1C4AECE8E32 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FE09D48BE4D5E13A5239302EA5B2AB8 /* MMPlayerView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C8395C3FD51FC9B62910289E296FF748 /* Pods-MMPlayerView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E3287AFCC8E86495EDC7B106C795D732 /* Pods-MMPlayerView_Example.modulemap */,
+				6470BA69A05052373BBC6DDD60C108A4 /* Pods-MMPlayerView_Example-acknowledgements.markdown */,
+				C4DC8CA78497C2F15B6745500090B92E /* Pods-MMPlayerView_Example-acknowledgements.plist */,
+				4B5422CA20FADF9590410368931F8EE8 /* Pods-MMPlayerView_Example-dummy.m */,
+				A23922FA4E96DB9AF2B4A42FD65510F7 /* Pods-MMPlayerView_Example-frameworks.sh */,
+				7C34D5B9225B954CABE0E7817B102F5F /* Pods-MMPlayerView_Example-Info.plist */,
+				3A9A3C0FE3069073AE307D32350528EE /* Pods-MMPlayerView_Example-umbrella.h */,
+				43AA8EC7A8A5D6F926B7EFBEB2CEC62C /* Pods-MMPlayerView_Example.debug.xcconfig */,
+				F2FDC68B7F07A0D6AFA55E3F0C75E7BB /* Pods-MMPlayerView_Example.release.xcconfig */,
+			);
+			name = "Pods-MMPlayerView_Example";
+			path = "Target Support Files/Pods-MMPlayerView_Example";
+			sourceTree = "<group>";
+		};
+		CA4AFBE2D0BF7463F0A8E31F5BE1469D /* Progress */ = {
+			isa = PBXGroup;
+			children = (
+				B9A161D723DE4216DB89441377C91054 /* MMPlayerProgressUI.swift */,
+			);
+			name = Progress;
+			path = Progress;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C119D56F4C3A16AA6C6BC1C4AECE8E32 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B3B2292D046601E4776D0B07FA0EB4DA /* Products */,
+				5350E8EDD4116F6558D5907543ED2939 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6A8EA30D322DAE6A15A1A747A54A7A5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC09E4BF1DFEF02135AF7E2F09A2638E /* MMPlayerView.modulemap */,
+				E5EA82D86A499302E20D0B4A579C12B1 /* MMPlayerView-dummy.m */,
+				53135A42C0FFD77630DC5E64F4927C36 /* MMPlayerView-Info.plist */,
+				DD13E2FC52325F32876B195FB266A7C9 /* MMPlayerView-prefix.pch */,
+				1545131545A50AA3CE6BBB48BE53B977 /* MMPlayerView-umbrella.h */,
+				999BCA85679A2787849BDAF407F97367 /* MMPlayerView.debug.xcconfig */,
+				85CE2E112BCDDCD164690576BBDE825A /* MMPlayerView.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MMPlayerView";
+			sourceTree = "<group>";
+		};
+		FEDB82C4591511A05F3BDBBA65D18F66 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				A5898AF0D2432DED65FEF94E27FD3450 /* MMPlayerCache.swift */,
+			);
+			name = Cache;
+			path = MMPlayerView/Classes/Cache;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		20D86054931C0511C353D578653F8139 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B6332C6C57D5C875BEB78CB2D3D802 /* Pods-MMPlayerView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BF7645A5D2DBA6DAB36CEAC722241BE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				252EB46563E701160D058FE119C4FEFB /* MMPlayerView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4538BA644665E2EB3856D7387E0D4A68 /* Pods-MMPlayerView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B5CF0D796F97ECFAF7C714C072EF0BA /* Build configuration list for PBXNativeTarget "Pods-MMPlayerView_Example" */;
+			buildPhases = (
+				20D86054931C0511C353D578653F8139 /* Headers */,
+				EE4AEA4098D0F68A63505B1A44A590EC /* Sources */,
+				3F85E55D8E6A4DA3B72BAFCADC1D8C45 /* Frameworks */,
+				D339834BEC69A28CD3573B63D7E1868A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A514CED5908208A7D9EBCF9F8F330D2A /* PBXTargetDependency */,
+			);
+			name = "Pods-MMPlayerView_Example";
+			productName = Pods_MMPlayerView_Example;
+			productReference = 660B4901DCCD5C9EAD6D3856ABC7E10C /* Pods-MMPlayerView_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		C033E08D00E323FB22F01920A912DB38 /* MMPlayerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14970CE58D28D7DA20B4396B3E7C0EE7 /* Build configuration list for PBXNativeTarget "MMPlayerView" */;
+			buildPhases = (
+				6BF7645A5D2DBA6DAB36CEAC722241BE /* Headers */,
+				6DD65D1D68B368530221A73A34AF8CE2 /* Sources */,
+				D9B2C7D4A5C2FCA51A8E48909B8FF50D /* Frameworks */,
+				4182E7F5A622A2CDAB4B0D6E69CD879E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMPlayerView;
+			productName = MMPlayerView;
+			productReference = EA9374AE38550CD162770E94FCDC9303 /* MMPlayerView */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B3B2292D046601E4776D0B07FA0EB4DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C033E08D00E323FB22F01920A912DB38 /* MMPlayerView */,
+				4538BA644665E2EB3856D7387E0D4A68 /* Pods-MMPlayerView_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4182E7F5A622A2CDAB4B0D6E69CD879E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D339834BEC69A28CD3573B63D7E1868A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DD65D1D68B368530221A73A34AF8CE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F809D1B2CA312B229B668805189A265 /* FrameModifier.swift in Sources */,
+				312CB8AE6D6BD48F8B15B7A92F8C2BC4 /* GlobalFrameModifier.swift in Sources */,
+				723F2F447B3DEE519FACFEBD582C24D1 /* MMLandscapeWindow.swift in Sources */,
+				11BDF24F604EF9092F85A3FDA4EA77B4 /* MMLandscapeWindowUI.swift in Sources */,
+				E32689284669B0C2E7CA2509CB30AEFF /* MMPlayer+Array+Safe.swift in Sources */,
+				A2BD25A4C8E2AF205A3664A8A6BCF08B /* MMPlayer+AVPlayerItem+ConvertStatus.swift in Sources */,
+				3C7488229DDDA7983C8CE9FE23CE35A8 /* MMPlayer+Codable.swift in Sources */,
+				0C6DCA7802808D99CF6BB1290D03265E /* MMPlayer+Constraint.swift in Sources */,
+				FA0EC65B428184B318540E42FAF83876 /* MMPlayer+DispatchQueue+Once.swift in Sources */,
+				46E39B8DB21B9ACFCDBD218E5190F522 /* MMPlayer+NSObject+Replace.swift in Sources */,
+				AF25EB733427C45938277688D1AC326A /* MMplayer+StackView+RemoveAll.swift in Sources */,
+				EF5BEBE22282650BEAC226D8880B62BD /* MMPlayer+String+Bounds.swift in Sources */,
+				A1CDE6B1B3C22EC9F64E4D9640222263 /* MMPlayer+String+Encode.swift in Sources */,
+				252F6A08DA3B2087731A284584D9B75B /* MMPlayer+String+SRTTime.swift in Sources */,
+				044CD340531A3865179AE5430A2D5ED5 /* MMPlayer+UINavigationController+Proxy.swift in Sources */,
+				C36A636C7A9591E552DC503612212391 /* MMPlayer+UIView+Load.swift in Sources */,
+				2ACE3941C201DDCAEB17C952379BC83B /* MMPlayer+UIView+Shadow.swift in Sources */,
+				2F25D3710DD6069B08CD80A9F0C23A91 /* MMPlayer+UIViewController+CheckProtocol.swift in Sources */,
+				8D4BC60448DF3D379CEFC550C0F36244 /* MMPlayerBasePresentationController.swift in Sources */,
+				324C35A6D26A1277BF92A8AF89679815 /* MMPlayerBaseTransition.swift in Sources */,
+				D1F6808090ADAE841CE6B7AD5D5AD4F7 /* MMPlayerCache.swift in Sources */,
+				6794F5C035F309ACBA54087FD3BB2C1E /* MMPlayerContainer.swift in Sources */,
+				C849FB2BA2CB2E020EA6C7F615EC267D /* MMPlayerControl.swift in Sources */,
+				65883AD16CCC3C8D6838219A27189487 /* MMPlayerDefine.swift in Sources */,
+				6603166F4C7E93FBE34B926CF7E5357F /* MMPlayerDownloader.swift in Sources */,
+				C203B0A5E817036B6351A5BC00D4E557 /* MMPlayerDownloaderModifier.swift in Sources */,
+				301F4CEB1F3C10205AF6CBBEC1FD5DA7 /* MMPlayerDownloadManager.swift in Sources */,
+				AAD26CA83AEB4FEBE8D3DF51177F10F3 /* MMPlayerDownloadRequest.swift in Sources */,
+				A60F0D17FA4D9F8B89D21102C629568D /* MMPlayerDownLoadVideoInfo.swift in Sources */,
+				807781A64E294862065E497C5B27B952 /* MMPlayerItem.swift in Sources */,
+				10944FDDE6E46490F21DA589BD38C047 /* MMPlayerLayer.swift in Sources */,
+				00B8F13D1A2E32615F9FCAD71CED20AA /* MMPlayerObservation.swift in Sources */,
+				DF71A2093CDE8C2C0D1582C2284B09A5 /* MMPlayerPassViewPresentatinController.swift in Sources */,
+				10E9F8C614691ECA60699F2C62F925D6 /* MMPlayerPassViewPresentConfig.swift in Sources */,
+				DFABC769AC39A031DEF4C81F27829BB0 /* MMPlayerPassViewPresentTransition.swift in Sources */,
+				DB0758457CA59208349689C69C5900FD /* MMPlayerPassViewPushConfig.swift in Sources */,
+				422BBC6D2155C752FF86A0429ED3D645 /* MMPlayerPassViewPushTransition.swift in Sources */,
+				438C93E507F9AE5132339B0C8476AF23 /* MMPlayerPresentAnimator.swift in Sources */,
+				2FB7AAAF447BBAF33279419F8A2B8629 /* MMPlayerProgressUI.swift in Sources */,
+				391D0FF221D9FB679B65A89FE33FD8C6 /* MMPlayerProtocol.swift in Sources */,
+				D5143B414D8186ECADD2D0E8C6D6322E /* MMPlayerPushAnimator.swift in Sources */,
+				E5AF803ECA64B45479AA22F5F8933AD5 /* MMPlayerShrinkControl.swift in Sources */,
+				5A9D873665BD5508DF6005FD2B3DC5A3 /* MMPlayerTransition.swift in Sources */,
+				573453CF8580EF0928E9FCF36B0C700D /* MMPlayerTransitionDefine.swift in Sources */,
+				513DCC854F68C462ACB6D2D84AA72731 /* MMPlayerView.swift in Sources */,
+				B8ED14AA25C61A8AE3ADFCFF298FD7C2 /* MMPlayerView-dummy.m in Sources */,
+				C696A981199E281594E9EC410AF6F460 /* MMPlayerViewBridge.swift in Sources */,
+				93F8DC30E87092387536A3E26DA20275 /* MMPlayerViewUIError.swift in Sources */,
+				D3E51F7ED9754C57E3CA7044B9E4877C /* MMPLayerViewUITransition.swift in Sources */,
+				D9B54DD6D1F82164E20C0CEFA3EB5D8E /* MMProgress.swift in Sources */,
+				775910F9B38D1C41461D41318AB62328 /* MMSubtitleSetting.swift in Sources */,
+				5208B2221FBAB07C31604F51E32361DA /* MMSubtitleView.swift in Sources */,
+				ADA3328A955AEE5B9F5911FDC79F7CD4 /* SRT.swift in Sources */,
+				85EEC1626B4DB20184F18DC55BF2D3EE /* SRTInfo.swift in Sources */,
+				19AF4D74F2B5CDFD572B3408CC9D5C6D /* SubtitleConverter.swift in Sources */,
+				080A181138018D5270C2428F61FC7D1F /* TimeInfo.swift in Sources */,
+				C8D8BCE6799FCD1A254E068202B37DE2 /* TransitionFrameModifier.swift in Sources */,
+				B2972A123CF871F6DA3D29746E9C833D /* WeakBox.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE4AEA4098D0F68A63505B1A44A590EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4685E03A9220BFA4A3D5AC9B2E868AC /* Pods-MMPlayerView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A514CED5908208A7D9EBCF9F8F330D2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MMPlayerView;
+			target = C033E08D00E323FB22F01920A912DB38 /* MMPlayerView */;
+			targetProxy = 30854D2E77CA29360A77CB31479D10E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		032AF9CC9943EA4A9EF6E431CD42EE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2FDC68B7F07A0D6AFA55E3F0C75E7BB /* Pods-MMPlayerView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MMPlayerView_Example/Pods-MMPlayerView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MMPlayerView_Example/Pods-MMPlayerView_Example.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		156E3FFC9F35C41348600632E586E965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 999BCA85679A2787849BDAF407F97367 /* MMPlayerView.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMPlayerView/MMPlayerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMPlayerView/MMPlayerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMPlayerView/MMPlayerView.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_MODULE_NAME = MMPlayerView;
+				PRODUCT_NAME = MMPlayerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		99C9295050E19AC4895D6630FD93A0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85CE2E112BCDDCD164690576BBDE825A /* MMPlayerView.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MMPlayerView/MMPlayerView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MMPlayerView/MMPlayerView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MMPlayerView/MMPlayerView.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_MODULE_NAME = MMPlayerView;
+				PRODUCT_NAME = MMPlayerView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D2A83194367DA932F9E01CD9BED9A4D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43AA8EC7A8A5D6F926B7EFBEB2CEC62C /* Pods-MMPlayerView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MMPlayerView_Example/Pods-MMPlayerView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MMPlayerView_Example/Pods-MMPlayerView_Example.modulemap";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14970CE58D28D7DA20B4396B3E7C0EE7 /* Build configuration list for PBXNativeTarget "MMPlayerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				156E3FFC9F35C41348600632E586E965 /* Debug */,
+				99C9295050E19AC4895D6630FD93A0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B5CF0D796F97ECFAF7C714C072EF0BA /* Build configuration list for PBXNativeTarget "Pods-MMPlayerView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2A83194367DA932F9E01CD9BED9A4D6 /* Debug */,
+				032AF9CC9943EA4A9EF6E431CD42EE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
